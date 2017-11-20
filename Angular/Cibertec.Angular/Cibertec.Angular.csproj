@@ -12,4 +12,11 @@
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Models\" />
+    <Folder Include="wwwroot\app\" />
+    <Folder Include="wwwroot\libraries\bootstrap\" />
+    <Folder Include="wwwroot\libraries\jquery\" />
+  </ItemGroup>
+
 </Project>
