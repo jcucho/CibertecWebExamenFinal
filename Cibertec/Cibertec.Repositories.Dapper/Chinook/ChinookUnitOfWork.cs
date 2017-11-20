@@ -25,8 +25,8 @@ namespace Cibertec.Repositories.Dapper.Chinook
         public ICustomerRepository Customers { get; private set; }
         public IEmployeeRepository Employees { get; private set; }
         public IGenreRepository Genres { get; private set; }
-        public IInvoiceLineRepository InvoiceLines { get; private set; }
         public IInvoiceRepository Invoices { get; private set; }
+        public IInvoiceLineRepository InvoiceLines { get; private set; }        
         public IMediaTypeRepository MediaTypes { get; private set; }
         public IPlaylistRepository Playlists { get; private set; }
         public IPlaylistTrackRepository PlaylistTracks { get; private set; }

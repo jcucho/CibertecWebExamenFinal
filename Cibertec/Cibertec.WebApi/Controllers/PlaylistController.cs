@@ -36,7 +36,7 @@ namespace Cibertec.WebApi.Controllers
         public IActionResult Put([FromBody] Playlist playlist)
         {
             if (ModelState.IsValid && _unit.Playlists.Update(playlist))
-                return Ok(new { Message = "The customer is updated" });
+                return Ok(new { Message = "The playlist is updated" });
             return BadRequest(ModelState);
         }
 

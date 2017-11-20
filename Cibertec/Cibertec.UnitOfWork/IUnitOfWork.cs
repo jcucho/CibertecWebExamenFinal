@@ -9,8 +9,8 @@ namespace Cibertec.UnitOfWork
         ICustomerRepository Customers { get; }
         IEmployeeRepository Employees { get; }
         IGenreRepository Genres { get; }
-        IInvoiceLineRepository InvoiceLines { get; }
         IInvoiceRepository Invoices { get; }
+        IInvoiceLineRepository InvoiceLines { get; }        
         IMediaTypeRepository MediaTypes { get; }
         IPlaylistRepository Playlists { get; }
         IPlaylistTrackRepository PlaylistTracks { get; }
