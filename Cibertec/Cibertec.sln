@@ -5,23 +5,29 @@ VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cibertec.Models", "Cibertec.Models\Cibertec.Models.csproj", "{F3E2A928-7471-42C4-BE98-22BE2D6D255F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cibertec.Repositories", "Cibertec.Repositories\Cibertec.Repositories.csproj", "{5D93D597-A65F-42B4-914D-CDA8EEE3633C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cibertec.Repositories", "Cibertec.Repositories\Cibertec.Repositories.csproj", "{5D93D597-A65F-42B4-914D-CDA8EEE3633C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cibertec.UnitOfWork", "Cibertec.UnitOfWork\Cibertec.UnitOfWork.csproj", "{638B9118-241E-401D-AE61-FFEEF4A5D188}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cibertec.UnitOfWork", "Cibertec.UnitOfWork\Cibertec.UnitOfWork.csproj", "{638B9118-241E-401D-AE61-FFEEF4A5D188}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cibertec.Repositories.Dapper", "Cibertec.Repositories.Dapper\Cibertec.Repositories.Dapper.csproj", "{88BEDA21-5166-49C7-8A0C-273EC88839B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cibertec.Repositories.Dapper", "Cibertec.Repositories.Dapper\Cibertec.Repositories.Dapper.csproj", "{88BEDA21-5166-49C7-8A0C-273EC88839B1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{F7E118F3-AB4C-436D-A218-5C39CC8289AE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{1BCBF13B-57DB-4842-95DB-D81A598F699F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cibertec.WebApi", "Cibertec.WebApi\Cibertec.WebApi.csproj", "{B340E316-1183-4B83-BAD9-1181F6E2A167}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cibertec.WebApi", "Cibertec.WebApi\Cibertec.WebApi.csproj", "{B340E316-1183-4B83-BAD9-1181F6E2A167}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{2DA469E0-DD03-437A-8463-C63140DCF191}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cibertec.Mocked", "Cibertec.Mocked\Cibertec.Mocked.csproj", "{AB7535D1-04C4-4891-8C40-FD186E011055}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cibertec.Mocked", "Cibertec.Mocked\Cibertec.Mocked.csproj", "{AB7535D1-04C4-4891-8C40-FD186E011055}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cibertec.WebApi.Tests.Mocked", "Cibertec.WebApi.Tests.Mocked\Cibertec.WebApi.Tests.Mocked.csproj", "{656FE9EF-8301-42D2-9EFF-572838EE4896}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cibertec.WebApi.Tests.Mocked", "Cibertec.WebApi.Tests.Mocked\Cibertec.WebApi.Tests.Mocked.csproj", "{656FE9EF-8301-42D2-9EFF-572838EE4896}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{64891C95-3367-4B06-A88F-7A7870CD66A0}"
+	ProjectSection(SolutionItems) = preProject
+		E:\Clases\cibertec\vs2017\Examen Final\Chinook.sql = E:\Clases\cibertec\vs2017\Examen Final\Chinook.sql
+		E:\Clases\cibertec\vs2017\Examen Final\Chinook_Scripts.sql = E:\Clases\cibertec\vs2017\Examen Final\Chinook_Scripts.sql
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
