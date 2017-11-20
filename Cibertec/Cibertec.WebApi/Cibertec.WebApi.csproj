@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <Folder Include="Authentication\" />
+    <Folder Include="Scripts\" />
     <Folder Include="Validators\" />
     <Folder Include="wwwroot\" />
   </ItemGroup>
