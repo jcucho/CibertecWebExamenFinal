@@ -11,6 +11,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cibertec.UnitOfWork", "Cibe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cibertec.Repositories.Dapper", "Cibertec.Repositories.Dapper\Cibertec.Repositories.Dapper.csproj", "{88BEDA21-5166-49C7-8A0C-273EC88839B1}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{F7E118F3-AB4C-436D-A218-5C39CC8289AE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{1BCBF13B-57DB-4842-95DB-D81A598F699F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cibertec.WebApi", "Cibertec.WebApi\Cibertec.WebApi.csproj", "{B340E316-1183-4B83-BAD9-1181F6E2A167}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,9 +39,20 @@ Global
 		{88BEDA21-5166-49C7-8A0C-273EC88839B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88BEDA21-5166-49C7-8A0C-273EC88839B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88BEDA21-5166-49C7-8A0C-273EC88839B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B340E316-1183-4B83-BAD9-1181F6E2A167}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B340E316-1183-4B83-BAD9-1181F6E2A167}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B340E316-1183-4B83-BAD9-1181F6E2A167}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B340E316-1183-4B83-BAD9-1181F6E2A167}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F3E2A928-7471-42C4-BE98-22BE2D6D255F} = {F7E118F3-AB4C-436D-A218-5C39CC8289AE}
+		{5D93D597-A65F-42B4-914D-CDA8EEE3633C} = {F7E118F3-AB4C-436D-A218-5C39CC8289AE}
+		{638B9118-241E-401D-AE61-FFEEF4A5D188} = {F7E118F3-AB4C-436D-A218-5C39CC8289AE}
+		{88BEDA21-5166-49C7-8A0C-273EC88839B1} = {F7E118F3-AB4C-436D-A218-5C39CC8289AE}
+		{B340E316-1183-4B83-BAD9-1181F6E2A167} = {1BCBF13B-57DB-4842-95DB-D81A598F699F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {57F2759C-2198-4F44-81DA-48B3C19AF4FE}
