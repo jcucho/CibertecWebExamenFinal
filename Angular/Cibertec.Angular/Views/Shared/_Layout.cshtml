@@ -27,6 +27,7 @@
                     <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
                     <li><a ng-if="!vm.validate()" ui-sref="login" ui-sref-active="active">Login</a></li>
                     <li><a ng-if="vm.validate()" ng-click="vm.logout()" href="#" ui-sref-active="active">Logout</a></li>
+                    <li><a ng-if="vm.validate()" ui-sref="customer" ui-srefactive="active">Customer</a></li>
                 </ul>
             </div>
         </div>
@@ -61,6 +62,10 @@
         <script src="~/app/public/login/login.controller.js"></script>
 
         <script src="~/app/components/modal/modal.directive.js"></script>
+
+        <script src="~/app/private/customer/directives/customer-card/customer.card.js"></script>
+        <script src="~/app/private/customer/directives/customer-form/customer.form.js"></script>
+        <script src="~/app/private/customer/customer.controller.js"></script>
 
         <script src="~/js/site.js" asp-append-version="true"></script>
     </environment>
