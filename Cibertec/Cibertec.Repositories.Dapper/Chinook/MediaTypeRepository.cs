@@ -16,7 +16,7 @@ namespace Cibertec.Repositories.Dapper.Chinook
         {
             using (var connection = new SqlConnection(_connectionString))
             {
-                return connection.ExecuteScalar<int>("SELECT Count(Id) FROM dbo.MediaType");
+                return connection.ExecuteScalar<int>("SELECT Count(*) FROM dbo.MediaType");
             }
         }
 

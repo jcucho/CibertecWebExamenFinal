@@ -7,12 +7,19 @@
             restrict: 'E',
             transclude: true,
             scope: {
-                id: '@',
-                firstName: '@',
+                customerId: '@',
+                firstName: '@',                
                 lastName: '@',
+                company: '@',
+                address: '@',
                 city: '@',
+                state: '@',
                 country: '@',
-                phone: '@'
+                postalCode: '@',
+                phone: '@',
+                fax: '@',
+                email: '@',
+                supportRepId: '@'
             },
             templateUrl: 'app/private/customer/directives/customer-card/customer-card.html'
 

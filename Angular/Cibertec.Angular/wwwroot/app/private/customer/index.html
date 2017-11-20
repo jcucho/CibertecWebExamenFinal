@@ -12,17 +12,24 @@
     <ul uib-pagination total-items="vm.totalRecords" items-per-page="vm.itemsPerPage" ng-model="vm.currentPage" max-size="vm.maxSize" ng-change="vm.pageChanged()"></ul>
     <div class="row">
         <customer-card ng-repeat-start="customer in vm.customerList"
-                      id="{{::customer.id}}"
+                      customer-id="{{::customer.customerId}}"
                       first-name="{{::customer.firstName}}"
                       last-name="{{::customer.lastName}}"
+                      company="{{::customer.company}}"
+                      address="{{::customer.address}}"                      
                       city="{{::customer.city}}"
+                      state="{{::customer.state}}"
                       country="{{::customer.country}}"
-                      phone="{{::customer.phone}}">
+                      postal-code="{{::customer.postalCode}}"
+                      phone="{{::customer.phone}}"
+                      fax="{{::customer.fax}}"
+                      email="{{::customer.email}}"
+                      support-rep-id="{{::customer.supportRepId}}">
 
-            <button ng-click="vm.getCustomer(customer.id); vm.edit();" data-toggle="modal" data-target="#modal-container" class="btn btn-success btn-sm">
+            <button ng-click="vm.getCustomer(customer.customerId); vm.edit();" data-toggle="modal" data-target="#modal-container" class="btn btn-success btn-sm">
                 <span class="glyphicon glyphicon-edit"></span> Edit
             </button>
-            <button ng-click="vm.getCustomer(customer.id); vm.delete();" data-toggle="modal" data-target="#modal-container" class="btn btn-danger btn-sm">
+            <button ng-click="vm.getCustomer(customer.customerId); vm.delete();" data-toggle="modal" data-target="#modal-container" class="btn btn-danger btn-sm">
                 <span class="glyphicon glyphicon-erase"></span> Delete
             </button>
         </customer-card>
